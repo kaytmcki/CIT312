@@ -1,0 +1,66 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom, #fecee2, #a6fcb6);
+    color: rgb(71, 0, 27);
+    min-height: 100vh;
+}
+
+/* Navigation Styles */
+nav {
+    background-color: #ba6e8136; 
+    padding: 10px 0; 
+}
+
+nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    transition: color 0.3s ease; /* Smooth transition for hover */
+}
+
+nav a:hover {
+    color: #570526; /* Change color on hover */
+    text-decoration: none;
+}
+
+/* Header Styles */
+header {
+    padding: 20px 0;
+    color: rgb(141, 12, 12);
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+/* Image Styles */
+img {
+    display: block;
+    margin: 20px auto; 
+    width: 200px;
+    height: auto;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+}
+
+/* Paragraph Styles */
+p {
+    margin: 20px auto;
+    line-height: 1.6;
+    max-width: 600px; /* Limit the paragraph width for better readability */
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
+}
+
+/* List Styles */
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 20px;
+}
+
+li {
+    margin: 10px 0;
+    font-size: 1.1rem; 
+}
